@@ -19,8 +19,10 @@ stops.pop(3)
 # print(len(stops))
 #8. Sort the list alphabetically
 stops.sort()
-print(stops)
+# print(stops)
 #9. Reverse the positions of the stops in the list
+stops.sort(reverse = True)
+print(stops)
 #10 Print out all the stops using a for loop
 # for stop in stops:
 #     print(stop)
