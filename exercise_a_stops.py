@@ -7,10 +7,11 @@ stops.append("Edinburgh Waverley")
 stops = ["Glasgow Queen St"] + stops
 # print(stops)
 #3. Add "Polmont" at the appropriate point (between "Falkirk High" and "Linlithgow")
-
+stops.insert(4,"Polmont")
+print(stops)
 #4. Print out the index position of "Linlithgow"
-if "Linlithgow" in stops:
-    print (stops.index("Linlithgow"))
+# if "Linlithgow" in stops:
+#     print (stops.index("Linlithgow"))
 #5. Remove "Livingston" from the list using its name
 # stops.remove("Livingston")
 # print(stops)
